@@ -19,7 +19,7 @@
 第三方altinity的下载地址：https://packagecloud.io/altinity/clickhouse
 需要下载的文件如下：
 
-![image](E:\GitHub\ClickHouse\pic\1.png)
+![](https://github.com/allenlin4723/ClickHouse/blob/main/pic/2.png)
 
 **其他Linux系统：**
 
