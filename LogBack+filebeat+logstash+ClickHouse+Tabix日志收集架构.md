@@ -19,7 +19,7 @@
 第三方altinity的下载地址：https://packagecloud.io/altinity/clickhouse
 需要下载的文件如下：
 
-![](https://github.com/allenlin4723/ClickHouse/blob/main/pic/2.png)
+![](https://github.com/allenlin4723/ClickHouse/blob/main/pic/1.png)
 
 **其他Linux系统：**
 
@@ -293,11 +293,11 @@ vim /usr/local/nginx/conf/nginx.conf
 
 11： 浏览器访问：http://119.29.221.90:6032/
 
-![image](E:\GitHub\ClickHouse\pic\2.png)
+![image](https://github.com/allenlin4723/ClickHouse/blob/main/pic/2.png)
 
 ## 四、创建日志存储表
 
-![image](E:\GitHub\ClickHouse\pic\3.png)
+![image](https://github.com/allenlin4723/ClickHouse/blob/main/pic/3.png)
 
 sql如下图所示：
 
@@ -329,7 +329,7 @@ ORDER BY
 insert into toplus_log.service_log FORMAT JSONEachRow{"requestId":"211008090611812f58c0da29d184fecb34bf5092","api":"/listingWorkbench/getListingIndex","logEvent":"GET_DOCUMENT_BY_ASIN_ERP_MARKETPLACE","objClass":"","objMethod":"com.framework.datacenter.base.service.impl.AmazonProductInfoIndexServiceImpl.getDocumentByAsinErpMarketplace","requestTime":"2021-10-08 09:57:58","responeTime":"2021-10-08 09:57:58","result":"","params":"[\n  \n    \"marketplaceId\": \"ATVPDKIKX0DER\",\n    \"asin\": \"B09F39H22R\",\n    \"companyBelong\": \"TOPLUS\"\n  \n]","error":"","sql":"","success":true,"serverIp":"172.17.0.12","currentSessionUserName":"吴若萱","currentSessionUserId":500}
 ```
 
-![image](E:\GitHub\ClickHouse\pic\4.png)
+![image](https://github.com/allenlin4723/ClickHouse/blob/main/pic/4.png)
 
 查询测试数据
 
@@ -357,7 +357,7 @@ where requestId='211008090611812f58c0da29d184fecb34bf5092'
  
 ```
 
-![image](E:\GitHub\ClickHouse\pic\5.png)
+![image](https://github.com/allenlin4723/ClickHouse/blob/main/pic/5.png)
 
 ## 五、安装filebeat
 
